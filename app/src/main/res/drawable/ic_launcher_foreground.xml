@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Centered safe-zone group (scale 3x and translate by 18, 18 to center 24x24 inside 108x108) -->
+    <group
+        android:translateX="18"
+        android:translateY="18"
+        android:scaleX="3.0"
+        android:scaleY="3.0">
+        
+        <!-- Subtle shadow for shield -->
+        <path
+            android:fillColor="#22000000"
+            android:pathData="M12,2.6 L4,5.6 v6 c0,5.55 3.84,10.74 8,12 c4.16,-1.26 8,-6.45 8,-12 V5.6 L12,2.6 z" />
+            
+        <!-- Shield Base -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M12,2 L4,5 v6 c0,5.55 3.84,10.74 8,12 c4.16,-1.26 8,-6.45 8,-12 V5 L12,2 z" />
+            
+        <!-- Graduation Cap (Diamond Top) -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M12,5.5 L5.5,9 L12,12.5 L18.5,9 Z" />
+            
+        <!-- Graduation Cap (Tassel) -->
+        <path
+            android:strokeColor="#6750A4"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M16.5,9 v4" />
+            
+        <!-- Graduation Cap (Cap Band) -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M8.5,10.8 v1.5 c0,0 0.5,1.2 3.5,1.2 s3.5,-1.2 3.5,-1.2 v-1.5" />
+            
+        <!-- Resolution Checkmark -->
+        <path
+            android:strokeColor="#6750A4"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M8.5,16.5 L11,19 L16,14" />
+            
+    </group>
+</vector>

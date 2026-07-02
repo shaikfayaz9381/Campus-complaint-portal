@@ -1,0 +1,6 @@
+{
+  "name": "College Complaint Management System",
+  "description": "A secure offline-first College Complaint Management System for students and administrators to log, track, and resolve complaints with advanced local reporting, statistics, and PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
